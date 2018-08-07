@@ -1,0 +1,30 @@
+<html>
+	<head>
+		<title>Website</title>
+	</head>
+	
+	<body>
+		magic login <br>
+		Username <br>
+		<input type='text' id="user"> </input><br>
+		Password<br>
+		<input type='password' id="pass"> </input><br>
+		<button onclick="authenticate()" id="button">Enter</button>
+		<script>
+			function authenticate() {
+				if (document.getElementById('user').value == "username") {
+					if (document.getElementById('pass').value == "password") {
+						alert('you good fam');
+						window.location = 'https://www.google.com';
+					}
+					else {
+						alert('wrong password');
+					}
+				}
+				else {
+					alert ('wrong username');
+				}
+			}
+		</script>
+	</body>
+</html>
