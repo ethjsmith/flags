@@ -8,6 +8,13 @@ I will probably need some kind of engine to serve all of these pages separatly f
 elements, and see that the "password" that they need is stored in plaintext there, which will redirect to 
 a page with the flag on it. this is a pretty simple one, just to start things out.
 
+#key.txt
+
+This is an encripted key, encrypted with the command : `openssl aes-256-cbc -a -salt -in key.txt -out key.txt.enc`
+you can decript it with the opposite `openssl aes-256-cbc -d -a -in key.txt.enc -out **anyfilename**`
+
+the password, which will be supplied with the challenge  is cdccrules!
+
 # planned : 
 
 Here are some of the other challenges I have planned 
