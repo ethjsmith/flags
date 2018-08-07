@@ -1,7 +1,8 @@
 # flags
 some websites that hide flags for my club's CTF challenge... if you are currently doing this challenge, nice job finding this
 
-# Index.html <-- placeholder name
+I will probably need some kind of engine to serve all of these pages separatly from one machine... maybe NginX :/
+# inspect.html 
 
  This is the first website I'm working on, it is pretty simple, where the goal is to get someone to inspect the 
 elements, and see that the "password" that they need is stored in plaintext there, which will redirect to 
