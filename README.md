@@ -10,10 +10,11 @@ a page with the flag on it. this is a pretty simple one, just to start things ou
 
 # Code3.txt
 
-This is an encripted code, encrypted with the command : `openssl aes-256-cbc -a -salt -in key.txt -out code3.txt.enc`
+This is an encripted code, encrypted with the command : `openssl aes-256-cbc -a -salt -in code3.txt -out code3.txt.enc`
 you can decript it with the opposite `openssl aes-256-cbc -d -a -in code3.txt.enc -out **anyfilename**`
 
 the password, which will be supplied with the challenge  is cdccrules!
+( for the challenge people will be given only the .txt.enc file, not the plaintext obviously
 
 # Code.txt
 
