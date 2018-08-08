@@ -2,6 +2,12 @@
 some websites that hide flags for my club's CTF challenge... if you are currently doing this challenge, nice job finding this
 
 I will probably need some kind of engine to serve all of these pages separatly from one machine... maybe NginX :/
+
+# Shop.html
+
+This one will be a database that you can query, and the idea is that you'd be able to sql inject to see a second table in the database with the key in it, right now the website is using some asp.net code that i basically just copied, but 
+i am working on updating it to just use javascript, or PHP, which will be good , because I don't want this to be super hard to install on the host that I will be setting up
+
 # inspect.html 
 
  This is the first website I'm working on, it is pretty simple, where the goal is to get someone to inspect the 
@@ -29,8 +35,6 @@ Here are some of the other challenges I have planned
 flag hidden in the website with white font ( super easy) 
 
 encrypted phrase, and key to decrypt it 
-
-some other password that must be cracked somehow ( ceasars shift )
 
 password that is easily crackable ( like something from the first 20 lines of rockyou.txt ) 
 
